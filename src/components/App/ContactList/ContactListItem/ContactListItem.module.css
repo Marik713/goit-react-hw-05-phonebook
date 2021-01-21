@@ -1,0 +1,38 @@
+.ContactList_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.ContactList_item + .ContactList_item {
+  margin-top: 12px;
+}
+
+.ContactList_button {
+  margin-right: 4px;
+  margin-left: 10px;
+  background-color: red;
+  width: 34px;
+  height: 28px;
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+
+.ContactList_button:hover {
+  background-color: rgb(238, 12, 12);
+}
+
+.numberContact {
+  width: 100px;
+  margin-right: 30px;
+}
+.contactWrapper {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}

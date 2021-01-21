@@ -1,0 +1,59 @@
+/* html,
+body {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+textarea,
+section,
+option {
+  outline: none;
+  border: none;
+}
+
+button {
+  display: block;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+.mainContainer {
+  width: 600px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.mainTitle {
+  color: #3f51b5;
+  font-weight: 800;
+}
